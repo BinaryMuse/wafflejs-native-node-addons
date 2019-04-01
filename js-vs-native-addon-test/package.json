@@ -1,0 +1,20 @@
+{
+  "name": "js-vs-native-addon-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "Michelle Tilley <michelle@michelletilley.net>",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "bindings": "^1.5.0",
+    "microtime": "^3.0.0",
+    "node-addon-api": "^1.6.2",
+    "node-gyp": "^3.8.0"
+  }
+}
